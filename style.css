@@ -1,0 +1,581 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* outline: 1px solid red;   */
+}
+
+.b {
+    background-image: url(assets/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-color: rgb(167, 219, 240);
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.body img {
+    width: 150px;
+}
+
+.body button {
+    border: none;
+    background-color: white;
+    box-shadow: -4px -3px 19px -6px rgba(201, 192, 192, 0.75);
+    color: black;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.group {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.group1 h1 {
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.group1 button {
+    margin-top: 20px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 10px;
+    border: none;
+    height: 5vh;
+    width: 150px;
+    color: white;
+    box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+}
+
+.pro {
+    background-color: white;
+    padding-top: 60px;
+}
+
+.gift {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+
+}
+
+.gift1 h1 {
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.gift1 p {
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.ENO {
+    width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.page {
+    background-color: white;
+    padding-top: 20px;
+
+}
+
+.page1 {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+
+}
+
+.page2 h1 {
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.page2 p {
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.page3 {
+    width: 400px;
+    text-align: center;
+    align-items: center;
+}
+
+.web {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.web1 {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+}
+
+.web2 h1 {
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.web1 p {
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.web3 {
+    width: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.atm {
+    background-color: white;
+    height: 130px;
+    width: 400px;
+    padding-top: 3.5%;
+    margin-left: 35%;
+    position: sticky;
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+    border: none;
+}
+
+.pos {
+    text-align: center;
+    align-items: center;
+}
+
+.pos button {
+    margin-top: 20px;
+    height: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+    width: 50%;
+}
+.cash {
+    background-color: hsl(192, 100%, 9%);
+}
+footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 58px;
+    margin-top: 100px;
+}
+.money img {
+    width: 100px;
+    filter: brightness(0) invert(1);
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+.foot img {
+    padding-top: 15px;
+    width: 11px;
+}
+.loca {
+    display: flex;
+    align-items: center;
+}
+
+.loca p {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+.phone p {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+}
+.mail p {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.june {
+    justify-content: center;
+    padding: 40px;
+    color: white;
+}
+
+.pu {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+.qt {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.rp {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.july {
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    width: 200px;
+}
+
+.ca {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.bl {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.con {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.icon {
+    padding: 40px;
+    color: white;
+}
+
+.media img {
+    margin-right: 5px;
+    filter: brightness(0) invert(1);
+}
+
+.icon p {
+    margin-top: 55px;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:768px) {
+    .body {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .body button {
+        border: none;
+        background-color: white;
+        box-shadow: -4px -3px 19px -6px rgba(201, 192, 192, 0.75);
+        color: black;
+        width: 70px;
+        border-radius: 5px;
+    }
+
+    .body img {
+        width: 100px;
+    }
+    .group {
+        padding: 50px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+    }
+    .group1 h1 {
+        padding-bottom: 20px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .group1 p {
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 10px;
+    }
+
+    .group1 button {
+        margin-top: 20px;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 10px;
+        border: none;
+        height: 3vh;
+        width: 140px;
+        color: white;
+        box-shadow: 10px 10px 5px -8px rgba(235, 43, 192, 0.75);
+    }
+
+    .group2 img {
+        margin-top: 30px;
+    }
+
+    .pro {
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    .gift {
+        padding: 50px;
+        margin-top: 20px;
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .gift1 h1 {
+        padding-bottom: 20px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .gift1 p {
+        font-family: 'Poppins';
+        font-size: 10px;
+    }
+
+    .ENO {
+        width: 200px;
+        padding-top: 30px;
+    }
+
+    .page {
+        background-color: white;
+        padding-top: 20px;
+    }
+
+    .page1 {
+        padding: 50px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .page2 h1 {
+        padding-bottom: 20px;
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .page2 p {
+        font-family: 'Poppins';
+        font-size: 10px;
+    }
+
+    .page3 {
+        width: 200px;
+        padding-bottom: 20px;
+    }
+
+    .web {
+        background-color: white;
+        padding-top: 20px;
+    }
+
+    .web1 {
+        padding: 50px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .web2 h1 {
+        padding-bottom: 20px;
+        font-weight: bolder;
+    }
+
+    .web1 p {
+        font-family: 'Poppins';
+        font-size: 10px;
+    }
+
+    .web3 {
+        width: 200px;
+        padding-top: 20px;
+
+    }
+    .atm {
+            background-color: white;
+            height: 100px;
+            width: 255px;
+            padding-top: 3.5%;
+            margin-left: 17%;
+            position: sticky;
+            margin-top: 2rem;
+            margin-bottom: -10rem;
+            border-radius: 10px;
+            box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+            border: none;
+        }
+ .pos {
+        text-align: center;
+        align-items: center;
+    }
+ .pos h3{
+     font-size: medium;   
+    }
+.pos button {
+            margin-top: 20px;
+            height: 2rem;
+            background-color: hsl(322, 100%, 66%);
+            border-radius: 10px;
+            color: white;
+            border: none;
+            box-shadow: 0px 0px 14px -6px rgba(0, 0, 0, 0.58);
+            width: 60%;
+        }
+ .cash{
+ font-size: 10px;
+ }
+ .money img {
+  width: 100px;
+ filter: brightness(0) invert(1);
+  } 
+ .foot {
+ display: block;
+ justify-content: space-between;
+ }
+        
+ .foot img {
+ padding-top: 15px;
+ width: 9px;
+ }
+ .money img{
+ margin-top: 30px; 
+ margin-left: px;  
+ }
+ .loca p {
+   padding-left: 10px;
+   margin-top: 20px;
+   color: white;
+  font-size: 15px;
+  }
+ .phone p {
+   padding-left: 10px;
+   margin-top: 15px;
+   color: white;
+  font-size: 15px;
+ }
+ .phone p {
+    padding-left: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+}
+.mail p {
+    padding-left: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+.pu {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.qt {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.rp {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.june {
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+.july {
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    width: 200px;
+}
+.ca {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.icon {
+    padding: 10px;
+    color: white;
+}
+.icon p {
+    margin-top: 15px;
+    font-size: 10px;
+}
+}
